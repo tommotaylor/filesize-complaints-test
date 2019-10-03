@@ -30,9 +30,14 @@
       "label": "Upload documents",
       "label:cy": "Llwytho dogfennau",
       "maxFiles": 10,
-      "maxSize": "5242880",
+      "maxSize": "1",
       "minFiles": 1,
-      "name": "document-upload"
+      "name": "document-upload",
+      "validation": {
+        "fileupload": {
+          "LIMIT_FILE_SIZE": "You uploaded a file thats too large. Try again"
+        }
+      }
     }
   ],
   "show": {
