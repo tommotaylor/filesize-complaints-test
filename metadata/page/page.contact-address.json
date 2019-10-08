@@ -97,10 +97,14 @@
   ],
   "heading": "Your address",
   "heading:cy": "Eich cyfeiriad",
+  "headingSummary": "Heading (summary version)",
+  "sectionHeading": "Section Heading (uses heading value by default)",
+  "sectionHeadingSummary": "Section heading (Summary version)",
   "show": {
     "identifier": "has-fixed-address",
     "operator": "is",
     "value": "yes"
   },
+  "title": "This is the Title (uses heading value by default)",
   "url": "address"
 }
